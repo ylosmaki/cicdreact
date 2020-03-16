@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "initializing perhaps"
+  pre_build:
+    commands:
+      - echo "installing or something..."
+      - npm install
+  build:
+    commands:
+      - echo "creating build..."
+      - npm run build && aws s3 sync build/ s3://maija-cicd-bucket
+  post_build:
+    commands:
+      - echo "finishing hopefully..."
