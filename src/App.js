@@ -5,7 +5,7 @@ import './App.css';
 function App() {
     return (
         <div className="whole">
-            <p>Open the pipeline</p>
+            <p>Move the mouse to open AWS CodePipeline:</p>
             <div className="App">
                 <img src="putkenavaaja.jpg" className="putkimies"/>
             </div>

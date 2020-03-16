@@ -1,8 +1,7 @@
 .whole {
   text-align: center;
   font-size: large;
-  width: 300px;
-  justify-content: center;
+  width: 400px;
 }
 
 .App {
@@ -20,7 +19,8 @@
 
 .putkimies {
   height: 150px;
-  animation: putkimies infinite 5s;
+  animation: putkimies infinite 10s linear;
+  animation-timing-function: ease-out;
   animation-direction: alternate-reverse;
   border-radius: 10px;
   box-shadow: 0px 0px 50px white;
@@ -29,10 +29,14 @@
 
 @keyframes putkimies {
   from {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
   to {
-    transform: rotate(180deg);
+    transform: rotate(360deg);
   }
+}
+
+.putkimies:hover {
+  animation-play-state: paused;
 }
 
