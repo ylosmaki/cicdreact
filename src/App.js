@@ -9,8 +9,8 @@ function App() {
         <p>
           Rotating picture.
         </p>
-        <img src="psmi.gif" alt="...is broken, use your imagination." />
-
+{/*        <img src="morningcoffee.jpg" alt="...is broken, use your imagination." />*/}
+        <p>...is broken, use your imagination.</p>
 
       </header>
     </div>
