@@ -5,21 +5,9 @@ import './App.css';
 function App() {
     return (
         <div className="whole">
-            <p>Röörit auki</p>
+            <p>Open the pipeline</p>
             <div className="App">
-    {/*                <img src={logo} className="App-logo" alt="logo" />
-                    <p>
-                        Edit <code>src/App.js</code> and save to reload.
-                    </p>*/}
-                    <img src="putkenavaaja.jpg" className="putkimies"/>
-    {/*                <a
-                        className="App-link"
-                        href="https://reactjs.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Learn React
-                    </a>*/}
+                <img src="putkenavaaja.jpg" className="putkimies"/>
             </div>
         </div>
     );
